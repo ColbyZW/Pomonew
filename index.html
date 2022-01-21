@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio src=""></audio>
+    <div class="container-fluid">
+        <div class="col display-1 text-center my-4 py-5" id="title_text">Pomodoro Timer App</div>
+    </div>
+    <div class="container-fluid my-5 py-5 text-center">
+        <h1 class="display-4 text-center" id="time_remaining">Time Left</h1>
+        <h1 class="display-3 my-3 py-3" id="timer_text">25:00</h1>
+        <button type="button" class="btn btn-dark" id="timer_start"> <span id="timer_button_text">Start
+                Focusing</span></button>
+    </div>
+    <div class="container my-3 py-3">
+        <h4 class="text-center" id="interval_text">Study Intervals Completed: <span id='intervals'>0</span></h1>
+    </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>

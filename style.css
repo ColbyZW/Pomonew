@@ -1,0 +1,29 @@
+body {
+    background-image: url('images/sascha-bosshard-FIRj75kSELk-unsplash.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow:hidden;
+}
+#title_text {
+    text-shadow: 1px 1px grey;
+}
+#timer_text {
+    text-shadow: 1px 1px grey;
+}
+#timer_start {
+    font-size: 1rem;
+    box-shadow: 1px 1px grey;
+    transition: all 0.2s ease-in-out;
+}
+#timer_start:hover {
+    background-color: lightcyan;
+    color: black;
+}
+#timer_start:active {
+    transform: scale(0.9);
+}
+#interval_text {
+    text-shadow: .5px .5px grey;
+}
