@@ -2,6 +2,7 @@ body {
     background-image: url('images/sascha-bosshard-FIRj75kSELk-unsplash.jpg');
     background-repeat:no-repeat;
     background-size:cover;
+    background-position:center;
     height: 100vh;
     overflow-x: hidden;
     overflow:hidden;
@@ -26,4 +27,5 @@ body {
 }
 #interval_text {
     text-shadow: .5px .5px grey;
+    color: white;
 }
